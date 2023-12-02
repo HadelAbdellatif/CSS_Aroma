@@ -1,0 +1,179 @@
+/* General Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.contener{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+}
+
+ul{
+    list-style: none;  /* To Remove List Style*/
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Start of Navbar */
+
+.navbar{
+    background-color: white;
+}
+
+
+.logo{
+    float: left;
+    width: 30%;
+}
+
+.list{
+    float: left;
+    width: 50%;
+}
+
+.list li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.list a{
+    color: #333;
+}
+
+.icons{
+    float: left;
+    width: 20%;
+}
+
+.icons i{
+    color: #384aeb;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.icons .button{
+    color: #333;
+    border: #384aeb 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+/* End of Navbar */
+
+/* Start of Section 1 */
+
+.main-image{
+    float: left;
+    width: 40%;
+}
+
+.main-image .img{
+    width: 100%;
+}
+
+.main-text{
+    float: left;
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-text span{
+    font-size: 22px;
+}
+
+.main-text h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-text button{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    background-color: #384aeb;
+    border: #384aeb 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+/* End of Section 1 */
+
+/* Start of Section 2 */
+
+.Section2{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.contener .product{
+    float:left;
+    width: 33.33%;
+}
+
+.contener .product img{
+    width: 100%;
+    padding-right: 30px;
+}
+
+
+/* End of Section 2 */
+
+/* Start of Section 3 */
+
+
+.Section3{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Section3 span{
+    text-decoration: underline;
+}
+
+.Section3 h2{
+    padding-top: 10px;
+}
+
+.Section3 .product{
+    margin-top: 20px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.Section3 img{
+    width: 100%;
+}
+
+.Section3 h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Section3 p{
+    padding-top: 5px;
+}
+
+
+.Section3 .product .prise{
+    color: blue;
+}
+/* End of Section 3 */
